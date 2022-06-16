@@ -135,7 +135,7 @@ h6 {
 .form-control {
     height: 45px;
     background-color: #f7f7f7;
-    border: 1px solid #e8e8e8;
+    border: 1px solid #004b2f;
     border-radius: 0;
     box-shadow: none;
 }
@@ -221,7 +221,7 @@ h6 {
 /*btn-default*/
 .btn-default {
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #004b2f;
     color: #fff;
 }
 .btn-default:hover, 
@@ -341,7 +341,7 @@ ul.list-check li::before {
 .intro {
 	position: absolute;
 	top: 50%;
-	left: 30%;
+	left: 28%;
 	text-align: center;
 	-webkit-transform: translate(0%, -50%);
 	   -moz-transform: translate(0%, -50%);
@@ -352,7 +352,7 @@ ul.list-check li::before {
 }
 
 .intro h1{
-	font-size: 70px;
+	font-size: 80px;
 	line-height: 85px;
 	margin-bottom: 16px;
 	color: #ea9337;
@@ -363,12 +363,12 @@ ul.list-check li::before {
 .intro p{
 	color: #f7f7f7;
 	margin-bottom: 40px;
-    font-size:20px;
+    font-size:30px;
 }
 
 .intro-sub {
 	color: #fff;
-	font-size: 30px;
+	font-size: 40px;
 	line-height: 32px;
 	font-weight: 700;
 	display: block;
@@ -404,7 +404,7 @@ SOCIAL ICON
     top: 0;
     width: 40px;
     height: 40px;
-    border: 1px solid #fff;
+    border: 1px solid #004b2f;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
        -moz-transform: rotate(45deg);
@@ -426,7 +426,7 @@ SOCIAL ICON
 
 /* === NAVIGATION === */
 .header {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #004b2f;
     position: relative;
     width: 100%;
     z-index: 998;
@@ -435,7 +435,7 @@ SOCIAL ICON
 }
 
 .header::after {
-    border-bottom:1px solid #eee;
+    border-bottom:1px solid #004b2f;
     width: 100%;
     position: absolute;
     content: "";
@@ -468,7 +468,7 @@ SOCIAL ICON
     display: block;
     visibility: hidden;
     opacity:0;
-    border: 1px solid #ddd;
+    border: 1px solid #004b2f;
     border-top: 2px solid #004b2f;
     border-radius: 0;
     border-bottom: 3px double #ddd;
@@ -500,7 +500,7 @@ SOCIAL ICON
 }
 
 .navbar-custom .dropdown-menu > li{
-    border-bottom: 1px solid #F0F0F0;
+    border-bottom: 1px solid #004b2f;
 }
 
 .navbar-custom .dropdown-menu > li:last-child{
@@ -751,7 +751,7 @@ Resume Timeline
     float: left;
     width: 43%;
     text-align: right;
-    border: 1px solid #eee;
+    border: 1px solid #ea9337;
     position: relative;
 }
 
@@ -766,7 +766,7 @@ Resume Timeline
 }
 
 .timeline-content::after{
-    border: 1px solid #eee;
+    border: 1px solid #ffff10;
     width: 100%;
     position: absolute;
     content: "";
@@ -791,7 +791,7 @@ Resume Timeline
 }
 .timeline>li .timeline-panel::before {
     left: 100%;
-    border-left: 12px solid #ECECEC;
+    border-left: 12px solid #ea9337;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
     -o-transition:all 400ms;
@@ -803,7 +803,7 @@ Resume Timeline
 
 .timeline>li.timeline-inverted .timeline-panel::before {
     right: 100%;
-    border-right: 12px solid #ECECEC;
+    border-right: 12px solid #ea9337;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
     -o-transition:all 400ms;
@@ -990,7 +990,7 @@ Resume Timeline
 
 .blog-post-wrapper {
     padding: 20px 10px;
-    border: 1px solid #eee;
+    border: 1px solid #004b2f;
     overflow: hidden;
 }
 .margin{
@@ -1073,13 +1073,13 @@ Resume Timeline
     margin-bottom: 10px;
 }
 .entry-meta ul li {
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 .entry-meta ul li a{
     display: inline-block;
-    color: #BBBBBB;
+    color: black;
     font-weight: 400;
-    border: 1px solid #BBBBBB;
+    border: 1px solid #004b2f;
     padding: 5px 20px;
     margin-bottom: 5px;
 }
@@ -1186,8 +1186,8 @@ Icon for all respective meta
 /*MAP*/
 .location-map {
     padding: 4px;
-    border: 1px solid #eee;
-    border-bottom: 3px double #eee;
+    border: 1px solid #004b2f;
+    border-bottom: 3px double #004b2f;
 }
 .map-canvas {
     height: 350px;
